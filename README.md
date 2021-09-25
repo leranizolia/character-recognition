@@ -1,13 +1,13 @@
 # character-recognition
 
-Задача: 
+## Task:
 
-Есть изображения иероглифов, написанных от руки (всего около 300 тысяч), и необходимо научить нейросеть классифицировать, что за иероглиф написан.
+There are images of hieroglyphs written by hand (about 300 thousand in total), and it is necessary to teach the neural network to classify what kind of hieroglyph is written.
 
-Метрика качества -- accuracy.
+## Quality metric - accuracy.
 
-Описание данных:
+## Description of data:
 
-Датасет поделён на 5 частей -- 4 обучающих и одна тестовая. Каждая часть представляет из себя .npy файл, который можно загрузить при помощи функции np.load(). Каждый массив представляет из себя матрицу размером [N, 2], в каждой строке лежит картинка и её номер в Unicode.
+The dataset is divided into 5 parts - 4 training and one test. Each part is a .npy file that can be loaded using the np.load () function. Each array is a matrix of size [N, 2], each line contains a picture and its number in Unicode.
 
-Для загрузки датасета: kaggle competitions download -c chinese-char-recognition-smmo19
+To download the dataset: kaggle competitions download -c chinese-char-recognition-smmo19
